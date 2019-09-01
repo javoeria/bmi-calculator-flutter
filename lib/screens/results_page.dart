@@ -44,9 +44,7 @@ class ResultsPage extends StatelessWidget {
           ),
           BottomButton(
             buttomTitle: 'RE-CALCULATE',
-            onTap: () {
-              Navigator.pop(context);
-            },
+            onTap: () => Navigator.pop(context),
           ),
         ],
       ),
